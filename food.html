@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+    <title>Healthy Foods</title>
+</head>
+<body>
+    <div class="container">
+        <header id="navbar">
+          <a href="#" class="logo">Healthy <span>Foods</span></a>
+          <div class="register">
+          <button type="button" id="login">Login</button>
+          <button type="button" id="signup">Sign Up</button>
+        </div>
+          <ul class="menu">
+            <li>
+              <a href="#" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#">Menu</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </header>
+        <span class="menuIcon" onclick="menuToggle();"></span>
+        <div class="content">
+          <div class="bannerText" id="slideshowText">
+            <div class="active">
+              <h2>EAT Healthy<br>Stay Healthy</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum ipsa cumque voluptatibus voluptatem repudiandae nihil perferendis accusantium optio voluptates voluptas, autem delectus vel asperiores. Impedit illum doloremque ea perferendis.</p>
+              <a href="https://www.thehealthsite.com/" target="_blank">Read More</a>
+              
+            </div>
+            <div>
+              <h2>EAT Your<br>Veggies</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo incidunt necessitatibus vero quae id ducimus, quos autem iure nobis dolores perferendis, molestias eum ad, esse reiciendis accusamus doloribus architecto laboriosam.</p>
+              <a href="https://www.healthline.com/nutrition/50-super-healthy-foods" target="_blank">Read More</a>
+            </div>
+            <div>
+              <h2>Good Food<br>Good Mood</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis nemo delectus neque doloremque nostrum debitis labore illum expedita? Rem repellat nesciunt magnam natus at nulla iste facilis? Ut, ex.</p>
+              <a href="https://rootfunctionalmedicine.com/good-food-good-mood/" target="_blank">Read More</a>
+            </div>
+          </div>
+          <div class="bannerImg" id="slideshow">
+            <img src="https://images.squarespace-cdn.com/content/v1/5bda52559f87707159df3e7e/1553463056765-T70ZJ0WI9X6KQR5ETNU9/ke17ZwdGBToddI8pDm48kLLCpA9byQtqvQ444vChMZt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmCZdxe8RUVMtthf0J1VwZ7vQPs32LoWSh6SJLofdlD4xF2YoDyoZMX9sF8WXe32IM/Order_068A6922_2.jpg?format=500w" class="active">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+            <img src="https://luxiders.com/wp-content/uploads/2018/06/bowl1-500x500.jpg">
+          </div>
+        </div>
+        <div class="icons">
+          <ul class="sci">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="controls">
+            <li>
+              <a href="#">
+                <i class="far fa-caret-square-left" onClick="prevSlide();prevSlideText();"></i>
+              </a>
+            </li>
+            <li >
+              <a href="#">
+                <i class="far fa-caret-square-right" onClick="nextSlide(); nextSlideText();"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <script src="food.js"></script>
+</body>
+</html>
